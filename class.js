@@ -15,4 +15,3 @@ function Jug(color,price,capacity)  {
 }
 
 const ashiqJug = new Jug('white',132,3);
-console.log(ashiqJug);
