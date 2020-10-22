@@ -1,5 +1,5 @@
 class Tiger{
-    #region = "haka";
+    // #region = "haka";
     constructor(name){
         this.name = name;
         this.#region = "region";
@@ -10,6 +10,6 @@ class Tiger{
 }
 const animals = new Tiger('nakal');
 animals.run();
-// animals.#region = "haka"
+// animals.#region = "haka";
 animals.name ='malam';
 console.log(animals);
